@@ -2,8 +2,7 @@ FROM debian
 WORKDIR /server
 
 # Set Environment Variables
-#ENV TM_SERVER_URL="http://files.v04.maniaplanet.com/server/TrackmaniaServer_Latest.zip"
-ENV TM_SERVER_URL="http://10.40.60.81/TrackmaniaServer_Latest.zip"
+ENV TM_SERVER_URL="http://files.v04.maniaplanet.com/server/TrackmaniaServer_Latest.zip"
 
 # The User that the Server runs under.
 # Its advised to change the credentials.
